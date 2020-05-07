@@ -17,7 +17,7 @@ Traditional natural language processing for classification problems rely on prop
 ## Methodology 
 
 We first explore and clean the original tweet dataset based on results from EDA, which could be found in [EDA and Cleaning.ipynb](EDA%20and%20Cleaning.ipynb)
-We are exploring 2 combinations of **word embedding + logistic regression** and 2 types of **recurrent neural networks**. The details and codes could be found in [Recurrent Neural Networks.ipynb](Recurrent%20Neural%20Networks.ipynb) and [TFIDF+ W2V Logistic Regression.ipynb](TFIDF+%20W2V%20Logistic%20Regression.ipynb)
+We are exploring 2 combinations of **word embedding + logistic regression** and 2 types of **recurrent neural networks**. The details and codes could be found in [Recurrent Neural Networks - BERT.py](Recurrent%20Neural%20Networks%-%BERT.py) and [TFIDF+ W2V Logistic Regression.ipynb](TFIDF+%20W2V%20Logistic%20Regression.ipynb)
 
 ## Results
 
