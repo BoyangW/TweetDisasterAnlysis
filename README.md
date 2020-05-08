@@ -17,7 +17,7 @@ Traditional natural language processing for classification problems rely on prop
 ## Methodology 
 
 We first explore and clean the original tweet dataset based on results from EDA, which could be found in [EDA and Cleaning.py](EDA%20and%20Cleaning.py)
-We are exploring 2 combinations of **word embedding + logistic regression** and 2 types of **recurrent neural networks**. The details and codes could be found in [Recurrent Neural Networks - LSTM.py](Recurrent%20Neural%20Networks%20-%20LSTM.py), [Recurrent Neural Networks - BERT.py](Recurrent%20Neural%20Networks%20-%20BERT.py) and [TFIDF+ W2V Logistic Regression.ipynb](TFIDF+%20W2V%20Logistic%20Regression.ipynb)  
+We are exploring 2 combinations of **word embedding + logistic regression** and 2 types of **recurrent neural networks**. The details and codes could be found in [Recurrent Neural Networks - LSTM.py](Recurrent%20Neural%20Networks%20-%20LSTM.py), [Recurrent Neural Networks - BERT.py](Recurrent%20Neural%20Networks%20-%20BERT.py) and [logistic_tfidf_w2v.py](logistic_tfidf_w2v.py)  
 
 For our neural embedding, we choose to use the w2v pretrain model from Google, which is trained with the Google News dataset (about 100 billion words). And the final model contains 300 dimensional vectors for 3 million words and phrases. So it should very much cover all the words in our disaster twitter dataset. In order to run the code, the pretrain model is required. Download link: https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?source=post_page (This file is 1.65GB, so we were not able to push to github)
 
